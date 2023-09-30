@@ -31,7 +31,7 @@ const About = ()=>{
                         <p>I am pursuing Bachelor of Technology with specialized in<span> Computer Engineering. </span>
                         Recently, I learned some modern Technology that attract me more towards the technology field. I always 
                         excited to learn new things and meeting with new people.</p>
-                        <a href="https://drive.google.com/file/d/1J60N4z3NjKCpLaOzKF4rT0JWpbPJA-8T/view?usp=drivesdk" target='blank'><i className="fa fa-arrow-down" aria-hidden="true"></i>&nbsp;Resume</a>
+                        <a href="https://drive.google.com/file/d/1NogGe9d9YUwdL4hrd417DdYcHhlnchk0/view?usp=sharing" target='blank'><i className="fa fa-arrow-down" aria-hidden="true"></i>&nbsp;Resume</a>
                     </div>
                 </div>
             </div>

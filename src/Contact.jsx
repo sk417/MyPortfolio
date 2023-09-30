@@ -27,7 +27,7 @@ const Contact = ()=>{
             });
         })
         .catch((err) =>{
-            window.alert('message has not sent');
+            window.alert('There is some technical issue please use email to send the mail.');
         })
     }
         const handleChange = (e) => {

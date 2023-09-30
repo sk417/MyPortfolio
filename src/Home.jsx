@@ -30,7 +30,7 @@ const Home = () =>{
                        <a href='https://github.com/sk417' className='fa fa-github' target='blank'>&nbsp;</a>
                        <a href='https://www.linkedin.com/in/sudheer-kumar-977856218' className='fa fa-linkedin' target='blank'>&nbsp;</a>
                        <a href='https://twitter.com/Sudheer18529099?t=Y126R991pUCcRu6-IspcYw&s=08' className='fa fa-twitter' target='blank'>&nbsp;</a>
-                       <a href='https://www.instagram.com/the_sudheer_kumar/' className='fa fa-instagram' target='blank'>&nbsp;</a>
+                       <a href='https://www.instagram.com/_sudheer.ak47/' className='fa fa-instagram' target='blank'>&nbsp;</a>
                     </div>
                 </div>
             </div>

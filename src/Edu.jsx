@@ -17,7 +17,7 @@ const Edu = () =>{
                     <h1>BTech (Computer Engineering)</h1>
                     <h2>C V Raman Global Unuversity</h2>
                     <p> <i className="fa fa-map-marker" aria-hidden="true"></i> Bhubaneshwar (Odisha)</p>
-                    <p>Till now 8.99 CGPA (2020-present)</p>
+                    <p>Till now 9.26 CGPA (2020-present)</p>
                   </div>
                   </div>
                   <div className="row2" data-aos="fade-left">
