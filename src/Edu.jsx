@@ -20,7 +20,7 @@ const Edu = () =>{
                     <p>Till now 9.26 CGPA (2020-present)</p>
                   </div>
                   </div>
-                  <div className="row2" data-aos="fade-left">
+                  <div className="row2" data-aos="fade-right">
                   <div className="box text">
                     <h1>Intermediate (Science(PCM))</h1>
                     <h2>L N D College</h2>

@@ -17,7 +17,7 @@ const About = ()=>{
                     <div className="column left" data-aos="fade-right">
                         <img src={profile} alt="pic"/>
                     </div>
-                    <div className="column right" data-aos="fade-left">
+                    <div className="column right" data-aos="fade-up">
                         <div className="text">I'm a <span><Typewriter
                     words= {['MERN Stack Developer', 'Competitive Programmer']}
                     loop

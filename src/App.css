@@ -66,7 +66,7 @@ body{
 }
 
 .menu-btn{
-  color: #fff;
+  color: #ffffff;
   font-size: 24px;
   cursor: pointer;
   display: none;
@@ -124,12 +124,37 @@ body{
   color: rgb(202, 233, 233);
 }
 
+.home .code{
+  font-size: 30px;
+  font-weight: 600;
+  color: rgb(202, 233, 233);
+}
+
 .home .follow-link a{
   color: rgb(213, 202, 223);
   text-decoration: none;
   margin-right: 3.8rem;
   padding: 3px;
   font-size: 35px;
+}
+
+.home .coding-profile a{
+  color: rgb(213, 202, 223);
+  text-decoration: none;
+  margin-right: 3.8rem;
+  padding: 0px;
+}
+.cp{
+  color: red;
+  width:2rem;
+  height: 2rem;
+  padding: 5px;
+  border-radius: 50%;
+}
+.cp:hover{
+  background-color: whitesmoke;
+  transform:scale3d(1.2,1.2,1.2);
+  transition: transform 0.3s ease-out;
 }
 
 .home .follow-link a:hover{
@@ -196,6 +221,10 @@ body{
     margin-right: 15px;
     padding: 3px;
     font-size: 35px;
+  }
+  .home .coding-profile a{
+    margin-right: 15px;
+    padding: 3px;
   }
 }
 
@@ -464,20 +493,27 @@ body{
 
 .skill .content .heading{
   width: 18rem;
-  background-color: black;
-  color: red;
+  background-color: rgb(23, 1, 1);
+  color: rgb(254, 2, 52);
   text-align: center;
   margin: 25px auto;
   padding: 10px;
   border-top-left-radius: 20px;
-  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
   cursor: pointer;
 }
 
 .skill .content .ans{
-  margin: -20px auto;
-  width: 18rem;
-  
+  margin-top: -25px;
+  margin-left: 0px;
+  margin-left: 0px;
+  margin-bottom: -10px;
+  width: 19.05rem;
+  padding-bottom: 30px;
+  background-color: rgb(245, 231, 231);
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border: 2px solid rgb(96, 36, 36);
 }
 
 .skill .content .ans p{
@@ -490,7 +526,8 @@ progress {
   border-radius: 20px;
   animation: progressBar 3s ease-in-out;
   animation-fill-mode: forwards; 
-  background-image: linear-gradient(to right, #fea2a2 0%, #bbc1bf 19%, #97c6e1 42%, #b4efda 79%, #7ac5df 100%);
+  /* background-image: linear-gradient(to right, #fea2a2 0%, #bbc1bf 19%, #97c6e1 42%, #b4efda 79%, #7ac5df 100%); */
+  background-image: linear-gradient(to right, rgb(220, 20, 60) 10%, red 30%, black 100%) ;
   }
   progress::-webkit-progress-bar {
   width: 100%;
@@ -503,7 +540,7 @@ progress {
   animation: progressBar 8s ;
   animation-fill-mode:left; 
   border-radius: 25px;
-  background-image: linear-gradient(to right, #d402fe 0%, #00c9ff 100%);
+  background-image: linear-gradient(to right, black 0%, rgb(220, 20, 60) 30%, red 80%, black 100%) ;
 } 
 
 .project{
@@ -569,16 +606,16 @@ progress {
 
 .project .content .card .text a{
   text-decoration: none;
-  background-image: radial-gradient(rgb(227, 25, 227),rgb(149, 22, 223));
+  background-image: radial-gradient(black,red, black);
   padding: 10px;
-  color: #fff;
+  color: #f8f6f6;
   border-radius: 8px;
   font-weight: bold;
 }
 
 .project .content .card .text a:hover{
-  background-color: #fff;
-  color: crimson;
+  background-image: radial-gradient(white,rgb(242, 184, 184));
+  color: rgb(250, 53, 93);
 }
 
 @media(max-width:1095px){

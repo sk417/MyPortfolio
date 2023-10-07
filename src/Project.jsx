@@ -13,9 +13,9 @@ const Project = () =>{
             <>
                 <section className="project">
                     <div className="max-width">
-                    <h2 className="title" data-aos="fade-down">Projects</h2>
+                    <h2 className="title" data-aos="fade-up">Projects</h2>
                         <div className="content">
-                            <div className="card" data-aos="fade-down">
+                            <div className="card" data-aos="fade-up">
                             <h1>Weather App</h1>
                                 <div className="image"><img src={p1} alt="logo"/></div>
                                 <div className="text">
@@ -23,7 +23,7 @@ const Project = () =>{
                                     <a href="https://github.com/sk417/WeatherApp" target='blank'>Github repo.</a>
                                 </div>
                             </div>
-                            <div className="card" data-aos="fade-down">
+                            <div className="card" data-aos="fade-up">
                             <h1>Coding Learning App</h1>
                                 <div className="image"><img src={p2} alt="logo"/></div>
                                 <div className="text">
@@ -31,7 +31,7 @@ const Project = () =>{
                                     <a href="https://github.com/sk417/CodingResource" target='blank'>Github repo.</a>
                                 </div>
                             </div>
-                            <div className="card" data-aos="fade-down">
+                            <div className="card" data-aos="fade-up">
                             <h1>Chat App</h1>
                                  <div className="image"><img src={p3} alt="logo"/></div>
                                  <div className="text">

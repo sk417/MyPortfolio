@@ -52,7 +52,7 @@ const Contact = ()=>{
                             <div className="row">
                                 <i className="fa fa-envelope"></i>
                                 <div className="info">
-                                    <div className="subtitle">sudheerkumarmki@gmail.com</div>
+                                    <div className="subtitle">sudheerkumar46916@gmail.com</div>
                                 </div>
                             </div>
                             <div className="row">
